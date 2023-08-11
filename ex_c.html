@@ -1,0 +1,9 @@
+<!-- elaborar um programa para uma loja, o qual leia o preço de um produto e
+informe as opções de pagamento da loja. Calcule e informe o valor para pagamento
+à vista com 10% de desconto e valor em 3x-->
+<script>
+    var precoProduto = Number(prompt("Qual o valor do produto?"));
+    var pagarVista = precoProduto - (0.1 * precoProduto);
+    var pagarParcelado = precoProduto / 3;
+    alert(`Valor R$: ${precoProduto.toFixed(2)} \nCom desconto, à vista R$: ${pagarVista.toFixed(2)} \nOu em 3x de R$: ${pagarParcelado.toFixed(2)}`);
+</script>
